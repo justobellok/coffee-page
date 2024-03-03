@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+    background: #111315;
+}
+
+.container{
+    margin: 0 auto;
+    height: 60vh;
+    width: 99%;
+    background-image: url("./img/bg-cafe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 40px;
+    border-radius: 7px;
+  }
+
+  h1{
+    color: #fff;
+    font-size: 32px;
+  }
+  
+  .header{
+    background-color: #1B1D1F;
+    width: 80%;
+    height: 130vh;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    border-radius: 7px;
+  }
+
+  p{
+    color: #6F757C;
+  }
+
+.title{
+    margin: 0 auto;
+    text-align: center;
+    width: 500px;
+    font-weight: bold;
+  }
+
+  .btn{
+ display: flex;
+ gap: 20px;
+ align-items: center;
+ justify-content: center;
+ margin: 18px;
+  }
+
+  .btn a:first-child{
+    background-color: #6F757C;
+    text-decoration: none;
+    color: #fff;
+    padding: 9px 18px;
+    border-radius: 10px;
+  }
+
+  .btn a:nth-child(2){
+    text-decoration: none;
+    color: #fff;
+  }
